@@ -7,7 +7,7 @@
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	
-	<name>maven-web-application</name>
+	<name>SaiJavaCode</name>
 
 	<description>Maven Web Project for Java Project</description>
 
@@ -110,7 +110,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>maven-web-application</finalName>
+		<finalName>SaiJavaCode</finalName>
 		
 		<plugins>
 			<plugin>
@@ -130,7 +130,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/maven-web-application</contextPath>
+						<contextPath>/SaiJavaCode</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
@@ -143,7 +143,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>maven-web-application</wtpContextName>
+					<wtpContextName>SaiJavaCode</wtpContextName>
 				</configuration>
 			</plugin>
 			
